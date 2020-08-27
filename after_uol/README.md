@@ -1,32 +1,31 @@
-[Go back to the main page](https://github.com/world-class/REPL)
+[Go back to the main page](../README.md)
 
 # After UoL's Online Bachelor Degree
 
-## Table of contents
-<!-- vim-markdown-toc GFM -->
+# Table of contents
 
-* [Study: Online options](#study-online-options)
-    * [Doctor of Computer Science](#doctor-of-computer-science)
-    * [Master's Degree](#masters-degree)
-        * [Analytics](#analytics)
-        * [Cyber security](#cyber-security)
-        * [Data science](#data-science)
-        * [Machine learning](#machine-learning)
-* [Work: Remote options](#work-remote-options)
-    * [Finding opportunities](#finding-opportunities)
-    * [Freelancing](#freelancing)
+- [After UoL's Online Bachelor Degree](#after-uols-online-bachelor-degree)
+- [Table of contents](#table-of-contents)
+- [Study: Online options](#study-online-options)
+  - [Doctor of Computer Science](#doctor-of-computer-science)
+  - [Master's Degree](#masters-degree)
+    - [Analytics](#analytics)
+    - [Cyber security](#cyber-security)
+    - [Data science](#data-science)
+    - [Machine learning](#machine-learning)
 
-<!-- vim-markdown-toc -->
+# Study: Online options
 
-## Study: Online options
 _Note: All degrees are in Computer Science, unless specified otherwise._
 
-### Doctor of Computer Science
+## Doctor of Computer Science
+
 - [Colorado Technical University](https://www.coloradotech.edu/degrees/doctorates/computer-science)
-- [Columbia University](https://cvn.columbia.edu/program/columbia-university-computer-science-doctorate-degree-doctor-engineering)
+- [Columbia University](https://cvn.columbia.edu/program/columbia-university-computer-science-doctorate-degree-des-doctor-engineering)
 - [Northcentral University](https://www.ncu.edu/programs-degrees/doctoral/doctor-philosophy-computer-science)
 
-### Master's Degree
+## Master's Degree
+
 - [Arizona State University](https://www.coursera.org/degrees/master-of-computer-science-asu) - Coursera
 - [Boston University](https://www.bu.edu/online/programs/graduate-programs/computer-information-systems-masters-degree/)
 - [Columbia University](https://cvn.columbia.edu/program/columbia-university-computer-science-masters-degree-masters-science)
@@ -39,30 +38,22 @@ _Note: All degrees are in Computer Science, unless specified otherwise._
 - [University of Illinois](https://www.coursera.org/degrees/master-of-computer-science-illinois) - Coursera
 - [University of Texas](https://www.edx.org/masters/online-master-science-computer-science-utaustinx) - edX
 
-#### Analytics
+### Analytics
+
 - [Georgia Tech](https://www.edx.org/masters/online-master-science-analytics-georgia-tech) - edX
 
-#### Cyber security
+### Cyber security
+
 - [Coventry University](https://www.futurelearn.com/degrees/coventry/msc-cyber-security) - FutureLearn
 - [Deakin University](https://www.futurelearn.com/degrees/deakin-university/cyber-security) - FutureLearn
 - [Georgia Tech](https://www.edx.org/masters/online-master-science-cybersecurity-georgia-tech) - edX
 
-#### Data science
+### Data science
+
 - [University of California, San Diego](https://www.edx.org/micromasters/ucsandiegox-algorithms-and-data-structures) - edX
 - [University of Illinois](https://www.coursera.org/degrees/masters-in-computer-data-science) - Coursera
 - [University of Michigan](https://www.coursera.org/degrees/master-of-applied-data-science-umich) (Applied Data Science) - Coursera
 
-#### Machine learning
+### Machine learning
+
 - [Imperial College London](https://www.coursera.org/degrees/msc-machine-learning-imperial) (Machine learning) - Coursera
-
-## Work: Remote options
-### Finding opportunities
-- [Dynamite Jobs](https://dynamitejobs.co/)
-- [Remote only](https://remoteonly.org/)
-- [Remote](https://remote.com/)
-- [We Work Remotely](https://weworkremotely.com/)
-
-### Freelancing
-- [Fiverr](https://www.fiverr.com/)
-- [Guru](https://www.guru.com/)
-- [Toptal](https://www.toptal.com/)

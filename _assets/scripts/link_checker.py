@@ -11,9 +11,6 @@ import time
 
 # Third-party imports
 import requests
-from pydub import AudioSegment
-from pydub.playback import play
-
 
 FILE_NAME = "dead.txt"  # Will appear if it contains dead links
 HEADERS = {
@@ -26,15 +23,15 @@ HEADERS = {
 EXCLUDED_WEBSITES = [
     "calendar.google.com",
     "challengerocket.com",
+    "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf",
     "https://yukaichou.com/gamification-book/",
 ]
-
 
 def extract_links(excluded_websites: list) -> list:
     """Extract links from all .md files recursively from the current
     repository."""
     cmd = (
-        'cat ../../**/*.md | grep -Eo "(http|https)://[a-zA'
+        'cat ../../**/*.md | grep -Eo "(http|https)://[+a-zA'
         '-Z0-9./?=_~-]*" | sort | uniq > links.txt'
     )
     subprocess.run(cmd, shell=True)
@@ -56,7 +53,6 @@ def extract_links(excluded_websites: list) -> list:
     os.unlink("links.txt")
     return sites
 
-
 def download_site(url, q):
     """Request an URL. If it can properly be retrieved, add it to queue
     `q` so that it gets written to a file with the job manager."""
@@ -74,7 +70,6 @@ def download_site(url, q):
         except UnboundLocalError:  # response doesn't exist → connection error
             q.put(url)
 
-
 def check_all_ok(dead_file):
     """Once we have requested all URLs, check if any was found to be
     dead and print them with their specific error code."""
@@ -91,7 +86,6 @@ def check_all_ok(dead_file):
     except FileNotFoundError:
         print(f"<{dead_file}> doesn't exist.")
 
-
 def listener(q):
     """Listens for messages on the `q`, writes to file."""
 
@@ -105,7 +99,6 @@ def listener(q):
 
             f.write(str(m) + "\n")
             f.flush()
-
 
 def job_manager(sites):
     """The purpose of the job manager is to add "jobs" in a "queue" so
@@ -133,7 +126,6 @@ def job_manager(sites):
     q.put("kill")
     pool.close()
 
-
 if __name__ == "__main__":
     SITES = extract_links(EXCLUDED_WEBSITES)  # Generate list of links
     START_TIME = time.time()  # Start timer right before launching job manager
@@ -146,8 +138,3 @@ if __name__ == "__main__":
 
     # Scan through the file that contains dead links. If empty, delete it.
     check_all_ok(FILE_NAME)
-
-    # Play a nice little sound when the script is done and shows ugly output
-    # for the file being played
-    song = AudioSegment.from_wav("./sounds/done.wav")
-    play(song)

@@ -1,23 +1,24 @@
-[Go back to the main page](https://github.com/world-class/REPL)
+[Go back to the main page](../README.md)
 
 # Table of contents
-<!-- vim-markdown-toc GFM -->
 
-* [Kinks found in Level 4 modules](#kinks-found-in-level-4-modules)
-* [Note to future students](#note-to-future-students)
-
-<!-- vim-markdown-toc -->
+- [Table of contents](#table-of-contents)
+- [Kinks found in Level 4 modules](#kinks-found-in-level-4-modules)
+- [Note to future students](#note-to-future-students)
 
 ---
 
 # Kinks found in Level 4 modules
-- [Algorithms and Data Structures I](../kinks/level4/algorithms_and_data_structures_i/README.md)
-- [How Computers Work](../kinks/level4/how_computers_work/README.md)
-- [Introduction to Programming II](../kinks/level4/introduction_to_programming_ii/README.md)
-- [Introduction to Programming I](../kinks/level4/introduction_to_programming_i/README.md)
-- [Numerical Mathematics](../kinks/level4/numerical_mathematics/README.md)
-- [Web Development](../kinks/level4/web_development/README.md)
 
+- [Algorithms and Data Structures I](../kinks/level_4/algorithms_and_data_structures_i/README.md)
+- [Discrete Mathematics](../kinks/level_4/discrete_mathematics/README.md)
+- [How Computers Work](../kinks/level_4/how_computers_work/README.md)
+- [Introduction to Programming I](../kinks/level_4/introduction_to_programming_i/README.md)
+- [Introduction to Programming II](../kinks/level_4/introduction_to_programming_ii/README.md)
+- [Numerical Mathematics](../kinks/level_4/numerical_mathematics/README.md)
+- [Web Development](../kinks/level_4/web_development/README.md)
+
+As a great complimentary resource, don't forget to check out the `#bugs` channel on Slack.
 
 # Note to future students
 
